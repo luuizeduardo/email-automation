@@ -1,0 +1,10 @@
+lib\Screenshot.class
+pages\BasePage.class
+tests\EmailTest.class
+lib\Generator.class
+pages\mailbox\MailboxPage.class
+factory\Web.class
+pages\login\LoginPage.class
+pages\login\PasswordPage.class
+lib\JUnitTestReporter$1.class
+lib\JUnitTestReporter.class

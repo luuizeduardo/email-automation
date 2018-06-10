@@ -51,7 +51,7 @@ public class JUnitTestReporter {
             try {
                 junitWriter.write(description.getDisplayName() + " "
                         + "success!");
-                junitWriter.write("<br/>");
+                junitWriter.write("<br/><br/>");
             } catch (Exception e1) {
                 System.out.println(e1.getMessage());
             }
@@ -62,7 +62,7 @@ public class JUnitTestReporter {
             try {
                 junitWriter.write(description.getDisplayName() + " "
                         + e.getClass().getSimpleName());
-                junitWriter.write("<br/>");
+                junitWriter.write("<br/><br/>");
             } catch (Exception e2) {
                 System.out.println(e2.getMessage());
             }
