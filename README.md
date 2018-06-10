@@ -14,7 +14,10 @@ This respository was created for an automation test of and e-mail provider. We u
 - Navigate to destination folder
 - Run `mvn clean test`
 
-#### Tools used
+#### Stack
 
+- Selenium WebDriver
+- Java
+- JUnit
+- Maven
 - IntelliJ Idea
-- JDK 1.8.0_151
