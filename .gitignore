@@ -1,5 +1,4 @@
 .idea/
 testReport.html
-target/surefire-reports/*
-target/test-classes/*
-target/maven-status/*
+target/*
+screenshots/*

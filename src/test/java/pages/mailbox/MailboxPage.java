@@ -74,7 +74,7 @@ public class MailboxPage extends BasePage {
         return clickSend();
     }
 
-    public MailboxPage varifyEmailReceived(String subject, String content){
+    public MailboxPage verifyEmailReceived(String subject, String content){
         findFirstEmailReceived();
         return validateInformationsReceived(subject, content);
     }

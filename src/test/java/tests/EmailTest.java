@@ -1,5 +1,6 @@
 package tests;
 
+import lib.Generator;
 import lib.JUnitTestReporter;
 import lib.Screenshot;
 import org.easetech.easytest.annotation.DataLoader;
@@ -47,6 +48,14 @@ public class EmailTest extends JUnitTestReporter {
                 .toastMessage();
 
         assertEquals(message, mensagemToast);
+
+        Screenshot.takeScreenshot(
+                browser,
+                System.getProperty("user.dir")
+                    + "\\screenshots\\" +
+                        Generator.dateToScreenshot() +
+                        ".png"
+        );
     }
 
     @Test
@@ -59,7 +68,15 @@ public class EmailTest extends JUnitTestReporter {
         new LoginPage(browser)
             .typeEmail(email)
             .typePassword(password)
-            .varifyEmailReceived(subject, content);
+            .verifyEmailReceived(subject, content);
+
+        Screenshot.takeScreenshot(
+                browser,
+                System.getProperty("user.dir")
+                        + "\\screenshots\\" +
+                        Generator.dateToScreenshot() +
+                        ".png"
+        );
     }
 
     @After
