@@ -11,6 +11,6 @@ public class Generator {
 
     public static String dateToScreenshot(){
         Timestamp ts = new Timestamp(System.currentTimeMillis());
-        return new SimpleDateFormat("dd_MM_yyyy_HH_mm").format(ts);
+        return new SimpleDateFormat("dd_MM_yyyy_HH_mm_ss").format(ts);
     }
 }

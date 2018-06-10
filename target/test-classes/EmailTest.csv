@@ -1,4 +1,4 @@
 testSendEmail,email,password,to,subject,content,message,Duration(ms)
-"",staphilips,vouconseguir,staphilips@gmail.com,Senior Test Analyst,Hello. Thank you to show your abilities in Philips technical test. We will review your code skills and think carefully this position for you. Best regards. Philips.,Mensagem enviada.,20089.0
-testValidateEmailReceived,email,password,subject,content,message
-"",staphilips,vouconseguir,Senior Test Analyst,Hello. Thank you to show your abilities in Philips technical test. We will review your code skills and think carefully this position for you. Best regards. Philips.,Mensagem enviada.
+"",staphilips,vouconseguir,staphilips@gmail.com,Senior Test Analyst,Hello. Thank you to show your abilities in Philips technical test. We will review your code skills and think carefully this position for you. Best regards. Philips.,Mensagem enviada.,15908.0
+testValidateEmailReceived,email,password,subject,content,message,Duration(ms)
+"",staphilips,vouconseguir,Senior Test Analyst,Hello. Thank you to show your abilities in Philips technical test. We will review your code skills and think carefully this position for you. Best regards. Philips.,Mensagem enviada.,11617.0
